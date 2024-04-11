@@ -1,0 +1,39 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+body {
+  align-content: center;
+  background: rgb(43,59,98);
+  background: linear-gradient(270deg, rgba(43,59,98,1) 0%, rgba(239,177,38,1) 100%);
+  font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+
+.card-registration .select-input.form-control[readonly]:not([disabled]) {
+  font-size: 1rem;
+  line-height: 2.15;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+}
+.card-registration .select-arrow {
+  top: 13px;
+}
+
+.btn-primary{
+    width: 50%;
+    border: none;
+    border-radius: 50px;
+   background: rgb(43,59,98);
+background: linear-gradient(90deg, rgba(43,59,98,1) 0%, rgba(239,177,38,1) 100%);
+}
+@media only screen and (max-width: 600px) {
+    form{
+        width: 100% !important;
+    }
+}

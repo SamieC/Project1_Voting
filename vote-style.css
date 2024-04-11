@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+body {
+  
+    background: rgb(43,59,98);
+    background: linear-gradient(90deg, rgba(43,59,98,1) 0%, rgba(239,177,38,1) 100%);
+  font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+form {
+  width: 25%;
+  background-color: white;
+  padding: 50px;
+  border-radius: 20px;
+  margin-top: 150px;
+  margin-left: 40%;
+}
+
+.btn-secondary {
+  width: 50%;
+    border: none;
+    /* border-radius: 50px; */
+    background: rgb(43,59,98);
+    background: linear-gradient(270deg, rgba(43,59,98,1) 0%, rgba(239,177,38,1) 100%);
+}
+
+.form-control{
+    border: none;
+    border-bottom: 1px solid;
+    border-bottom-color: rgba(253, 187, 45, 1);
+    box-shadow: none !important;
+    border-radius: 4px 4px 0 0;
+
+}
+h4{
+    font-size: 2rem !important;
+    font-weight: 400 ;
+}
+
+.form-label{
+    font-family: 700 !important;
+
+}
+
+@media only screen and (max-width: 600px) {
+    form{
+        width: 100% !important;
+    }
+}

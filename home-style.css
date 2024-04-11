@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header1 {
+  background-color: radial-gradient(
+    90deg,
+    rgb(43, 98, 50) 0%,
+    rgba(239, 177, 38, 1) 100%
+  ) !important;
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+
+body{
+    background: linear-gradient(
+        90deg,
+        rgba(43, 59, 98, 1) 0%,
+        rgba(239, 177, 38, 1) 100%
+      );
+      color:#efb126;
+
+.alert{
+    width: 100%;
+    
+}
+}
+:root {
+  --primary-color: #2b3b62;
+  --secondary-color: #efb126;
+  --complimentary-color: #ce8e68;
+  --contrast-color: #48c9de;
+  --light-color: #d2a9d9;
+}
+
+.container {
+  background: rgb(43, 59, 98);
+  min-height: 100vh;
+  font-family: Montserrat, sans-serif;
+  text-align-last: center;
+  width: 100%;
+}
+
+.accordion{
+    margin-left: 25%;
+    width: 50%;
+    padding-top: 150px;
+}
+
+nav a {
+  font-size: 40px;
+  color: #fff;
+  text-decoration: none;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  position: fixed;
+  
+  left: 0;
+  z-index: 50;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 100vh;
+  background: var(--secondary-color);
+  backdrop-filter: blur 5px;
+}
+
+section {
+  position: absolute;
+  top: 0;
+  height: 100vh;
+  width: 0;
+  opacity: 0;
+  transition: all ease-in 0.5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section h1 {
+  color: #fff;
+  font-size: 50px;
+  text-transform: uppercase;
+  opacity: 0;
+}
+
+/* Styles applied on trigger */
+section:target {
+  opacity: 1;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+}
+
+section:target h1 {
+  opacity: 0;
+  animation: 2s fadeIn forwards 0.5s;
+}
+
+#first {
+    position: relative;
+  background: var(--primary-color);
+}
+#second {
+  background: var(--complimentary-color);
+}
+
+#third {
+  background: var(--contrast-color);
+}
+
+#fourth {
+  background: var(--light-color);
+}
+
+#fifth {
+    background: var(--light-color);
+  }
+
+
+@keyframes fadeIn {
+  100% {
+    opacity: 1;
+  }
+}
+
+
+.side_nav:hover, nav.main-menu.expanded {
+    width:250px;
+    overflow:hidden;
+    opacity:50%;
+    
+    }
+
+    .side_nav {
+        
+        background:#efb126;
+        position:absolute;
+        justify-content: center;
+        top:0px;
+        bottom: 0;
+        height: 100%;
+        left:0;
+        width: 110px;
+        overflow:hidden;
+        -webkit-transition:width .2s linear;
+        transition:width .4s linear;
+        box-shadow: 1px 0 15px rgba(0, 0, 0, 0.07);
+          opacity:1;
+        margin-top: 7%;
+        display:flex
+        
+        }
