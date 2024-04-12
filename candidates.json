@@ -1,0 +1,34 @@
+{
+    "candidates": [
+      {
+        "id": 1,
+        "name": "John Kamau",
+        "party": "Independent",
+        "age": 45,
+        "experience": "Current City Council Member",
+        "platform": "Focus on education and infrastructure improvements.",
+        "image": "https://unsplash.com/photos/man-wearing-black-framed-sunglasses-mjRwhvqEC0U"
+      
+        
+      },
+      {
+        "id": 2,
+        "name": "Emily Atieno",
+        "party": "Workers Union",
+        "age": 38,
+        "experience": "Former School Board President",
+        "platform": "Advocating for affordable housing and environmental sustainability.",
+        "image": "https://unsplash.com/photos/man-wearing-black-framed-sunglasses-mjRwhvqEC0U"
+      },
+      {
+        "id": 3,
+        "name": "Michael Thompson Juma",
+        "party": "CCM",
+        "age": 50,
+        "experience": "Local Business Owner",
+        "platform": "Prioritizing economic development and reducing taxes.",
+        "image": "https://unsplash.com/photos/man-wearing-black-framed-sunglasses-mjRwhvqEC0U"
+      }
+    ]
+  }
+  

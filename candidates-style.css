@@ -1,19 +1,16 @@
 .card {
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  padding: 16px;
-  margin: 16px;
-  width: 300px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); }
-
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-
-* {
-  margin: 0;
-  border: 0;
-  box-sizing: border-box;
-}
-body {
+    margin-bottom: 20px;
+  }
+  
+  .card-buttons {
+    margin-top: 10px;
+  }
+  
+  .card-buttons button {
+    margin-right: 10px;
+  }
+  
+  body {
   
     background: rgb(43,59,98);
     background: linear-gradient(90deg, rgba(43,59,98,1) 0%, rgba(239,177,38,1) 100%);
