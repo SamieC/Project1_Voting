@@ -63,8 +63,10 @@ fetch('candidates.json')
     // Display vote counts
     const voteResultsSection = document.createElement('div');
     voteResultsSection.innerHTML = `
-      <h2>Results</h2>
+    <div id="Results_Container">  
+    <h1>Vote Results</h1>
       <div id="vote-results"></div>
+      </div>
     `;
     document.body.appendChild(voteResultsSection);
   })

@@ -6,7 +6,7 @@
         "party": "Independent",
         "age": 45,
         "experience": "Current City Council Member",
-        "platform": "Focus on education and infrastructure improvements.",
+        "platform": "Focus on Increasing SACCO Investments",
         "image": "/Assets/Images/canidate1.jpeg"
       
         
@@ -16,17 +16,17 @@
         "name": "Emily Atieno",
         "party": "Workers Union",
         "age": 38,
-        "experience": "Former School Board President",
-        "platform": "Advocating for affordable housing and environmental sustainability.",
+        "experience": "Former Board Chairman",
+        "platform": "Advocating for affordable housing and environmental sustainability for Sacco Members.",
         "image": "/Assets/Images/Canidate3.jpeg"
       },
       {
         "id": 3,
         "name": "Michael Thompson Juma",
-        "party": "CCM",
+        "party": "Chama Cha Mashinani",
         "age": 50,
-        "experience": "Local Business Owner",
-        "platform": "Prioritizing economic development and reducing taxes.",
+        "experience": "Sacco Member since 1990",
+        "platform": "Prioritizing the small members Voice.",
         "image": "/Assets/Images/Canidate 2.jpeg"
       }
     ]

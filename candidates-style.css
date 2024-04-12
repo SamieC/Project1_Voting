@@ -52,6 +52,21 @@ h4{
 
 }
 
+#vote-results{
+  font-size: x-large;
+  color: white;
+  font-weight: 900;
+  border: beige;
+  border-width: thick;
+  font-style: italic;
+  justify-content: center;
+ 
+}
+
+#Results_Container{
+  border: darkred;
+  
+}
 @media only screen and (max-width: 600px) {
     form{
         width: 100% !important;
