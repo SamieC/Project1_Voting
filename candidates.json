@@ -1,34 +1,100 @@
 {
-    "candidates": [
-      {
-        "id": 1,
-        "name": "John Kamau",
-        "party": "Independent",
-        "age": 45,
-        "experience": "Current City Council Member",
-        "platform": "Focus on Increasing SACCO Investments",
-        "image": "Assets/Images/canidate1.jpeg"
-      
-        
-      },
-      {
-        "id": 2,
-        "name": "Emily Atieno",
-        "party": "Workers Union",
-        "age": 38,
-        "experience": "Former Board Chairman",
-        "platform": "Advocating for affordable housing and environmental sustainability for Sacco Members.",
-        "image": "Assets/Images/Canidate3.jpeg"
-      },
-      {
-        "id": 3,
-        "name": "Michael Thompson Juma",
-        "party": "Chama Cha Mashinani",
-        "age": 50,
-        "experience": "Sacco Member since 1990",
-        "platform": "Prioritizing the small members Voice.",
-        "image": "Assets/Images/Canidate 2.jpeg"
-      }
-    ]
-  }
-  
+  "candidates": [
+    {
+      "id": "1",
+      "name": "John Kamau",
+      "party": "Independent",
+      "age": 45,
+      "experience": "Current City Council Member",
+      "platform": "Focus on Increasing SACCO Investments",
+      "image": "Assets/Images/canidate1.jpeg"
+    },
+    {
+      "id": "2",
+      "name": "Emily Atieno",
+      "party": "Workers Union",
+      "age": 38,
+      "experience": "Former Board Chairman",
+      "platform": "Advocating for affordable housing and environmental sustainability for Sacco Members.",
+      "image": "Assets/Images/Canidate3.jpeg"
+    },
+    {
+      "id": "3",
+      "name": "Michael Thompson Juma",
+      "party": "Chama Cha Mashinani",
+      "age": 50,
+      "experience": "Sacco Member since 1990",
+      "platform": "Prioritizing the small members Voice.",
+      "image": "Assets/Images/Canidate 2.jpeg"
+    },
+    {
+      "id": "a1d0",
+      "firstName": "jkjlajsdslkjdjasl",
+      "lastName": "",
+      "birthdayDate": "",
+      "gender": "option1",
+      "emailAddress": "",
+      "phoneNumber": "",
+      "position": "2",
+      "cvFile": ""
+    },
+    {
+      "id": "ef56",
+      "firstName": "dsafas",
+      "lastName": "",
+      "birthdayDate": "",
+      "gender": "option1",
+      "emailAddress": "",
+      "phoneNumber": "",
+      "position": "2",
+      "cvFile": ""
+    },
+    {
+      "id": "aa97",
+      "firstName": "",
+      "lastName": "",
+      "birthdayDate": "",
+      "gender": "option1",
+      "emailAddress": "",
+      "phoneNumber": "",
+      "position": "2",
+      "cvFile": ""
+    },
+    {
+      "id": "73f1",
+      "firstName": "",
+      "lastName": "",
+      "birthdayDate": "",
+      "gender": "option1",
+      "emailAddress": "",
+      "phoneNumber": "",
+      "position": "2",
+      "cvFile": ""
+    },
+    {
+      "id": "300d",
+      "firstName": "fnjdnsafnkjedsnkjaf",
+      "lastName": "",
+      "birthdayDate": "",
+      "gender": "option1",
+      "emailAddress": "",
+      "phoneNumber": "",
+      "position": "2",
+      "cvFile": ""
+    },
+    {
+      "id": "7113"
+    },
+    {
+      "id": "3677",
+      "firstName": "trial",
+      "lastName": "Data",
+      "birthdayDate": "",
+      "gender": "option1",
+      "emailAddress": "",
+      "phoneNumber": "",
+      "position": "2",
+      "cvFile": ""
+    }
+  ]
+}
