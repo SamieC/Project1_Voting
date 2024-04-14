@@ -28,9 +28,15 @@ https://samiec.github.io/Project1_Voting/
 
 1. Visit the application URL in your web browser.
 2. Navigate through the different nav items.
+#### Voting
 3. select Voting option
 4. Click on the option you want to vote for.
 5. View the real-time results displayed on the page.
+#### Nominating
+- Select Nominate on the side nav
+- fill in the required information
+- upload an image
+- confirm by going to Vote page
 
 ## Installation
 
