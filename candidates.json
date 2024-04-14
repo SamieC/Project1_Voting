@@ -7,7 +7,7 @@
         "age": 45,
         "experience": "Current City Council Member",
         "platform": "Focus on Increasing SACCO Investments",
-        "image": "/Assets/Images/canidate1.jpeg"
+        "image": "Assets/Images/canidate1.jpeg"
       
         
       },
@@ -18,7 +18,7 @@
         "age": 38,
         "experience": "Former Board Chairman",
         "platform": "Advocating for affordable housing and environmental sustainability for Sacco Members.",
-        "image": "/Assets/Images/Canidate3.jpeg"
+        "image": "Assets/Images/Canidate3.jpeg"
       },
       {
         "id": 3,
@@ -27,7 +27,7 @@
         "age": 50,
         "experience": "Sacco Member since 1990",
         "platform": "Prioritizing the small members Voice.",
-        "image": "/Assets/Images/Canidate 2.jpeg"
+        "image": "Assets/Images/Canidate 2.jpeg"
       }
     ]
   }

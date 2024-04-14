@@ -60,7 +60,7 @@ fetch('candidates.json')
       });
     });
 
-    // Display vote counts
+    // Display the vote counts
     const voteResultsSection = document.createElement('div');
     voteResultsSection.innerHTML = `
     <div id="Results_Container">  
