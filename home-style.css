@@ -142,7 +142,7 @@ section:target h1 {
     }
 
     .side_nav {
-        
+        font-size: xx-small;
         background:#efb126;
         position:absolute;
         justify-content: center;
@@ -158,5 +158,6 @@ section:target h1 {
           opacity:1;
         margin-top: 7%;
         display:flex
+        
         
         }
