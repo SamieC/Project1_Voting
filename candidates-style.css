@@ -60,11 +60,19 @@ h4{
   border-width: thick;
   font-style: italic;
   justify-content: center;
+  margin-left: 40%;
  
 }
 
 #Results_Container{
   border: darkred;
+
+h3{
+  margin-left: 50%;
+  color: blue;
+  font-weight: bolder;
+  
+}
   
 }
 @media only screen and (max-width: 600px) {

@@ -64,7 +64,7 @@ fetch('candidates.json')
     const voteResultsSection = document.createElement('div');
     voteResultsSection.innerHTML = `
     <div id="Results_Container">  
-    <h1>Vote Results</h1>
+    <h3>Vote Results</h3>
       <div id="vote-results"></div>
       </div>
     `;
