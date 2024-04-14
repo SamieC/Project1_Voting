@@ -9,23 +9,25 @@ document.addEventListener('DOMContentLoaded', function() {
       event.preventDefault(); // Prevent the default form submission behavior
   
       // Get form field values
-      const firstName = document.getElementById('firstName').value;
-      const lastName = document.getElementById('lastName').value;
-      const party = document.getElementById('birthdayDate').value;
+      const name = document.getElementById('name').value;
+      const platform = document.getElementById('platform').value;
+      const party = document.getElementById('party').value;
+      const experience = document.getElementById('experience').value;
       const gender = document.querySelector('input[name="inlineRadioOptions"]:checked').value;
       const emailAddress = document.getElementById('emailAddress').value;
-      const phoneNumber = document.getElementById('phoneNumber').value;
+      const age = document.getElementById('age').value;
       const position = document.querySelector('.select').value;
       const cvFile = document.getElementById('inputGroupFile01').value;
   
       // Create JavaScript object with form data
       const formData = {
-        firstName: firstName,
-        lastName: lastName,
+        name: name,
+        platform: platform,
         party: party,
+        experience: experience,
         gender: gender,
         emailAddress: emailAddress,
-        phoneNumber: phoneNumber,
+        age: age,
         position: position,
         cvFile: cvFile
       };

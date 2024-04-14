@@ -26,7 +26,18 @@
       "experience": "Sacco Member since 1990",
       "platform": "Prioritizing the small members Voice.",
       "image": "Assets/Images/Canidate 2.jpeg"
+    },
+    {
+      "id": "3ca0",
+      "firstName": "Samson",
+      "platform": "Kiprop",
+      "party": "CCN",
+      "experience": "Former CEO",
+      "gender": "option2",
+      "emailAddress": "",
+      "age": "58",
+      "position": "4",
+      "cvFile": ""
     }
-    
   ]
 }
