@@ -1,7 +1,7 @@
-// takes input from html file and updates canidates.json file
+// takes input from html file converts to JSON format and updates canidates.json file
 
 document.addEventListener('DOMContentLoaded', function() {
-    // Select the form element
+    
     const form = document.querySelector('form');
   
     // Add event listener for form submission
@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
       // Get form field values
       const firstName = document.getElementById('firstName').value;
       const lastName = document.getElementById('lastName').value;
-      const birthdayDate = document.getElementById('birthdayDate').value;
+      const party = document.getElementById('birthdayDate').value;
       const gender = document.querySelector('input[name="inlineRadioOptions"]:checked').value;
       const emailAddress = document.getElementById('emailAddress').value;
       const phoneNumber = document.getElementById('phoneNumber').value;
@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function() {
       const formData = {
         firstName: firstName,
         lastName: lastName,
-        birthdayDate: birthdayDate,
+        party: party,
         gender: gender,
         emailAddress: emailAddress,
         phoneNumber: phoneNumber,
@@ -30,9 +30,7 @@ document.addEventListener('DOMContentLoaded', function() {
         cvFile: cvFile
       };
   
-      // Output the JavaScript object to console 
 
-      console.log(formData);
 
           // Convert form data to JSON type 
     const jsonData = JSON.stringify(formData); 
