@@ -44,7 +44,7 @@ fetch('candidates.json')
               <strong>Experience:</strong> ${candidate.experience}
             </p>
             <div class="card-buttons">
-              <button class="btn btn-primary view-profile">View Profile</button>
+              <button class="btn btn-secondary view-profile">View Profile</button>
               <button class="btn btn-success vote-now">Vote Now</button>
             </div>
           </div>
